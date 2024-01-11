@@ -19,7 +19,7 @@ public class UnitConverterApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args){
         System.out.println("------------------------------------" + printConvertedData.printData());
     }
 }
